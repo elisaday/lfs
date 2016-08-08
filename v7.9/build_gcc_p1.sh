@@ -53,7 +53,7 @@ cd build
     --disable-libstdcxx                            \
     --enable-languages=c,c++ || exit -1
 
-$MAKE_USE_CORE || exit -2
+make || exit -2
 make install || exit -3
 
 popd

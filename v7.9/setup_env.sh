@@ -16,5 +16,4 @@ EOF
 
 source ~/.bash_profile
 
-export MAKE_USE_CORE='make'
 
