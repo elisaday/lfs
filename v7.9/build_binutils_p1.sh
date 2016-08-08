@@ -17,7 +17,7 @@ cd build
              --disable-nls              \
              --disable-werror || exit -1
 
-$MAKE_USE_CORE || exit -2
+make || exit -2
 
 case $(uname -m) in
   x86_64) mkdir -v /tools/lib && ln -sv lib /tools/lib64 ;;

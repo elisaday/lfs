@@ -20,7 +20,7 @@ RANLIB=$LFS_TGT-ranlib         \
     --with-lib-path=/tools/lib \
     --with-sysroot || exit -1
 
-$MAKE_USE_CORE || exit -2
+make || exit -2
 make install || exit -3
 
 make -C ld clean || exit -4

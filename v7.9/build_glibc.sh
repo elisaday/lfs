@@ -21,7 +21,7 @@ cd build
       libc_cv_ctors_header=yes           \
       libc_cv_c_cleanup=yes || exit -1
 
-$MAKE_USE_CORE || exit -2
+make || exit -2
 make install || exit -3
 
 popd
