@@ -12,7 +12,5 @@ cd dejagnu-1.5.3
 
 make install || exit -2
 
-make check || exit -3
-
 popd
 

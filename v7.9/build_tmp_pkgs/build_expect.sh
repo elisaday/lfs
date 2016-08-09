@@ -17,8 +17,6 @@ sed 's:/usr/local/bin:/bin:' configure.orig > configure
 
 make || exit -2
 
-make test || exit -3
-
 make SCRIPTS="" install
 
 popd

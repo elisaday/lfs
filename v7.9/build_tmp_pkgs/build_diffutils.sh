@@ -12,8 +12,6 @@ cd diffutils-3.3
 
 make || exit -2
 
-make check || exit -3
-
 make install || exit -4
 
 popd

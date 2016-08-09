@@ -12,8 +12,6 @@ cd sed-4.2.2
 
 make || exit -2
 
-make check || exit -3
-
 make install || exit -4
 
 popd

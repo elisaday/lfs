@@ -12,8 +12,6 @@ cd coreutils-8.25
 
 make || exit -2
 
-make RUN_EXPENSIVE_TESTS=yes check || exit -3
-
 make install || exit -4
 
 popd

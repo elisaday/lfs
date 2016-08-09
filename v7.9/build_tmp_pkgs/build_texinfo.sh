@@ -12,8 +12,6 @@ cd texinfo-6.1
 
 make || exit -2
 
-make check || exit -3
-
 make install || exit -4
 
 popd

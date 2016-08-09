@@ -12,8 +12,6 @@ cd bash-4.3.30
 
 make || exit -2
 
-make test || exit -3
-
 make install || exit -4
 
 ln -sv bash /tools/bin/sh
