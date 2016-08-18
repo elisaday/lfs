@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pushd /souces
+pushd /sources
 
 rm -rf inetutils-1.9.4
 tar xvf inetutils-1.9.4.tar.xz
