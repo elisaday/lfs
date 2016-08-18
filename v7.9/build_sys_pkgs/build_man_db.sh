@@ -1,0 +1,23 @@
+#!/bin/bash
+
+pushd /sources
+
+rm -rf man-db-2.7.5
+tar xvf man-db-2.7.5.tar.xz
+cd man-db-2.7.5
+
+./configure --prefix=/usr                        \
+            --docdir=/usr/share/doc/man-db-2.7.5 \
+            --sysconfdir=/etc                    \
+            --disable-setuid                     \
+            --with-browser=/usr/bin/lynx         \
+            --with-vgrind=/usr/bin/vgrind        \
+            --with-grap=/usr/bin/grap
+
+make
+
+make check
+
+make install
+
+popd
