@@ -2,7 +2,7 @@
 
 pushd /sources
 
-rm -rf kbd-2.0.3.tar.xz
+rm -rf kbd-2.0.3
 tar xvf kbd-2.0.3.tar.xz
 cd kbd-2.0.3
 
